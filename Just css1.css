@@ -1,0 +1,29 @@
+body {
+    background-color: yellowgreen;
+}
+
+.A>div {
+    display: inline;
+    border:solid white 2px;
+    background-color: aqua;
+    
+}
+.B>div {
+    display: inline-block;
+    border: solid white 2px;
+    background-color: brown;
+}
+.C>div {
+    display: block;
+    border: solid violet 2px;
+    background-color: olive;
+}
+
+.D {
+    display: flex;
+    height:2cm ;
+    width: 5cm;
+    flex-direction: row-reverse;
+    border: solid violet 2px;
+    background-color: olive;
+}
